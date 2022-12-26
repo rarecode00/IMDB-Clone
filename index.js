@@ -34,7 +34,7 @@ async function fetchAllData(e) {
 
      function openPage(){
         localStorage.setItem("Information" , JSON.stringify(data));
-        parent.location = './Html/infoPage.html'
+        parent.location = 'infoPage.html'
      }
 
      document.getElementById('know-more').addEventListener('click' , openPage);

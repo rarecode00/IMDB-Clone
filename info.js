@@ -24,12 +24,11 @@ function setInformation(){
 
      function handleBack(){
 
-         parent.location='../index.html'
+         parent.location='index.html'
          localStorage.removeItem('Information');
      }
 
      document.getElementById('Back').addEventListener('click' , handleBack);
-
 }
 
 setInformation();
